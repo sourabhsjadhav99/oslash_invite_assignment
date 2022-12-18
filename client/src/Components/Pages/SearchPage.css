@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.search-main-container {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+
+
+
+}
+
+.search-container {
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.invite-btn {
+    width: 80px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.serch-bar {
+    width: 40%;
+    height: 35px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: gray;
+}
+
+select {
+    width: 100px;
+    height: 39px;
+    border: 1px solid lightgray;
+    text-align: center;
+    background-color: lightgray;
+    box-sizing: border-box;
+    color: gray;
+}
+
+option {
+    background-color: white;
+}
+
+.learn-more-bar {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: gray;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.question-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.search-results {
+    background-color: white;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.result {
+    height: 35px;
+    padding: 10px 0 0 10px;
+    color: gray;
+}
+
+.result:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.first-letter {
+    background: gray;
+    color: white;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
